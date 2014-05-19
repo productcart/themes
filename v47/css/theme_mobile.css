@@ -1,0 +1,339 @@
+/* ===================
+    START: SITE STYLES
+   =================== */
+   
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body .viewport {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+body .viewport .frame {
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0; 
+}
+
+body .viewport .frame .navbar .navbar-inner {
+  border-radius: 0;
+  padding-left: 5px; 
+}
+
+body .viewport .frame .menu {
+  height: 100%;
+  /* background-color: #3D6AA2; */ 
+}
+
+body .viewport .frame .menu.collapse {
+  float: left;
+  height: 100% !important;
+  width: auto; 
+}
+
+body .viewport .frame .menu.collapse.height {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.35s ease;
+  -moz-transition: height 0.35s ease;
+  -o-transition: height 0.35s ease;
+  transition: height 0.35s ease; 
+}
+
+body .viewport .frame .menu.collapse.width {
+  position: relative;
+  width: 0;
+  overflow: hidden;
+  -webkit-transition: width 0.35s ease;
+  -moz-transition: width 0.35s ease;
+  -o-transition: width 0.35s ease;
+  transition: width 0.35s ease; 
+}
+
+body .viewport .frame .menu.collapse.in.width {
+  width: auto; 
+}
+
+body .viewport .frame .menu.collapse.in.height {
+  height: auto; 
+}
+
+body .viewport .frame .menu .collapse-inner {
+  position: relative;
+  width: 250px;
+  height: 100%; 
+}
+
+body .viewport .frame .menu .navbar .navbar-inner {
+  text-align: center;
+  color: grey;
+  font-size: 1.2em;
+  line-height: 38px; 
+}
+
+body .viewport .frame .menu .nav-stacked {
+  padding: 0 10px; 
+}
+
+body .viewport .frame .view {
+  width: 50%;
+  height: 100%;
+  overflow: hidden; 
+}
+
+body .viewport .frame .view .navbar .navbar-inner .btn-navbar {
+  display: block;
+  float: left; 
+}
+
+body .viewport .frame .view #content {
+  margin: auto 15px;
+  text-align: justify; 
+}
+
+/* ----- Content Areas ----- */
+
+
+/* ----- Footer ----- */
+
+
+/* ----- Search Bar ----- */
+
+
+/* ----- Footer Overrides ----- */
+#pcSpecials, #pcNewArrivals, #pcBestSellers, #pcUsefulLinks
+{
+	margin: 1%;
+	width: 98%;
+}
+#pcMainAreaBottom
+{
+	clear: both;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+#pcMainAreaBottom h2
+{
+	border-bottom: 1px solid #93817f;
+	color: #3e7ba6;
+	font-family: 'open_sansbold';
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+#pcMainAreaBottom ul
+{
+	list-style-type: none;
+	padding-left: 6px;
+}
+#pcMainAreaBottom .pcColumnWrapper
+{
+	padding: 2px 8px;
+}
+#pcMainAreaBottom #pcFeaturedProductsList
+{
+	margin: 0px;
+	padding: 0px;
+}
+#pcMainAreaBottom .pcShowProductsUL
+{
+	padding-bottom: 5px;
+}
+#pcMainAreaBottom .pcShowProductImageL
+{
+	float: left;
+	height: 48px;
+	position: relative;
+	text-align: center;
+	width: 48px;
+  padding: 0px;
+  margin-right: 6px;
+}
+#pcMainAreaBottom .pcShowProductImageL img
+{
+	height: 96%;
+	padding: 2%;
+	width: 96%;
+}
+/* ===================
+    END: SITE STYLES
+   =================== */
+
+
+
+
+/* ===================
+    START: BUTTONS
+   =================== */
+.pcButton
+{
+	background-color: #3d78d4;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 10px;
+	margin: 2px;
+	padding: 7px 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+a.pcButton
+{
+	text-decoration: none;
+	color: white !important;
+}
+.pcButton .pcButtonText
+{
+	color: inherit;
+	display: block;
+	font-size: inherit;
+	margin: 0px;
+	padding: 0px;
+}
+.pcButton img,
+.pcButton input[type="image"]
+{
+	display: none;
+}
+.pcButton:hover
+{
+	background-color: #204b8f;
+	color: white;
+	text-decoration: none;
+}
+.pcButtonAddToCart
+{
+	background-color: #ffd014;
+	color: #424657;
+}
+.pcButtonAddToCart:hover
+{
+	background-color: #ebbc00;
+	color: #424657;
+}
+.pcButtonMoreDetails
+{
+	background-color: #424657;
+}
+.pcButtonMoreDetails:hover
+{
+	background-color: #343845;
+}
+.secondary
+{
+	background-color: #eee !important;
+	color: #204b8f !important;
+}
+a.secondary
+{
+	text-decoration: none;
+	color: #204b8f !important;
+}
+.secondary .pcButtonText
+{
+	color: #204b8f !important;
+}
+.secondary:hover
+{
+	background-color: #fff !important;
+	color: #204b8f !important;
+}
+.tiny
+{
+	padding: 3px 6px !important;
+}
+.tiny .pcButtonText
+{
+	font-size: 10px !important;
+}
+/* ===================
+    END: BUTTONS
+   =================== */
+   
+   
+   
+
+/* =============================
+    START: SLIDE BAR OVERRIDES
+   ============================= */
+.sb-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sb-menu li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.sb-menu > li:first-child {
+    border-top: medium none;
+}
+.sb-menu > li:last-child {
+    border-bottom: medium none;
+}
+.sb-menu li a {
+    color: #F2F2F2;
+    display: inline-block;
+    padding: 1em;
+    width: 100%;
+}
+.sb-menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    text-decoration: none;
+}
+.sb-left .sb-menu li a {
+    border-left: 3px solid rgba(0, 0, 0, 0);
+}
+.sb-left .sb-menu li a:hover {
+    border-left: 3px solid;
+}
+
+/* =============================
+    END: SLIDE BAR OVERRIDES
+   ============================= */
+
+
+/* ===================
+    START: TABS
+   =================== */
+.tab-content > .tab-pane
+{
+	border-bottom: 1px solid #DDD !important;
+	border-left: 1px solid #DDD !important;
+	border-right: 1px solid #DDD !important;
+	padding: 10px;
+}
+.nav-tabs > li > a
+{
+	background-color: #ddd !important;
+	margin-bottom: -3px !important;
+}
+.nav-tabs > li.active > a
+{
+	background-color: #fff !important;
+	margin-bottom: -3px !important;
+}/* ===================
+    END: TABS
+   =================== */
+   

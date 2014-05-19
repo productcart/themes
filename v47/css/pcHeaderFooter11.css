@@ -1,0 +1,426 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* Container */
+html {
+	overflow-Y: scroll;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #666;
+	background-image: url(../images/pc11-bg.png);
+	background-color: #F5F5F5;
+}
+
+/* ----- Header - Start ----- */
+
+	#pcHeaderContainer {
+			width: 100%;
+			height: 80px;
+		}
+		
+		#pcHeader {
+			width: 1000px;
+			margin: 0 auto;
+			position: relative;
+		}
+			
+			#pcHeaderLeft {
+				position: absolute;
+				top: 0;
+				left: 0;
+				font-size: 40px;
+				color: #999;
+				line-height: 80px;
+				vertical-align: middle;
+				}
+			
+			#pcHeaderCenter {
+				position: absolute;
+				top: 0;
+				left: 345px;
+			}
+			
+				#pcHSearchForm {
+					padding: 10px;
+					margin: 18px 0 3px 0;
+					width: 280px;
+					background-color: #e1e1e1;
+					-moz-border-radius: 5px;
+					-webkit-border-radius: 5px;
+					border-radius: 5px;
+					position: relative;
+				}
+				
+				#pcHSearch {
+					font-size: 18px;
+					border: 1px solid #CCC;
+					background-color: #F5F5F5;
+					width: 160px;
+					height: 26px;
+					-moz-border-radius: 5px;
+					-webkit-border-radius: 5px;
+					border-radius: 5px;
+				}
+				
+				#pcHSearchSubmit {
+					position: absolute;
+					right: 80px;
+					top: 10px;
+					font-size: 20px;
+					color: #FFF;
+					border: none;
+					background-color: #F90;
+					-moz-border-radius: 5px;
+					-webkit-border-radius: 5px;
+					border-radius: 5px;
+				}
+				
+				#pcHSearchMore {
+					position: absolute;
+					right: 10px;
+					top: 12px;
+					text-align: center;
+					width: 60px;
+				}
+					
+					#pcHSearchMore a {
+						font-size: 11px;
+						text-decoration: none;
+						color: #999;
+					}
+					
+					#pcHSearchMore a:hover {
+						color: #666;
+					}
+			
+			#pcHeaderRight {
+				position: absolute;
+				top: 18px;
+				right: 0;
+			}
+			
+				#pcHeaderRight span {
+					padding-left: 10px;
+				}
+		
+/* ----- Header End ----- */
+
+/* ----- Navigation Bar Start ----- */
+
+	#pcNavContainer45 {
+			width: 100%;
+			height: 40px;
+		}
+		
+		#pcNav45 {
+			width: 1000px;
+			margin: 0 auto;
+			color: #f5f5f5;
+			font-size: 19px;
+			background-color: #444;
+			text-align: center;
+		}
+		
+			#pcNav45 a {
+				text-decoration: none;
+				color:#F3F3F3;
+				line-height: 40px;
+				vertical-align: middle;
+				padding: 0 15px;
+				border-right: 1px solid #555;
+				display: inline-block;
+			}
+			
+			#pcNav45 a:hover {
+				color: #DDD;
+				background-color: #555;
+			}
+			
+
+/* ----- Navigation Bar End ----- */
+
+/* ----- Icon Bar Start ----- */
+
+	#pcIconBarContainer {
+			width: 100%;
+			height: 35px;
+		}
+		
+	#pcIconBarContainer img {
+		border: none;
+		}
+		
+		#pcIconBar {
+			width: 1000px;
+			margin: 0 auto;
+			position: relative;
+		}
+			
+			#pcIconBar a {
+				text-decoration: none;
+				color: #666;
+			}
+			
+			#pcIconBar a:hover {
+				color: #222;
+			}
+		
+			#pcIconBar img {
+				vertical-align: middle;
+				margin: 0 2px 0 15px;
+			}
+			
+			#pcIconBarLeft {
+				position: absolute;
+				top: 0;
+				left: 10px;
+				padding-top: 10px;
+				}
+				
+				#pcIconBarLeft img {
+					margin: 0 2px 0 0;
+				}
+				
+				#pcIconBarLeft a {
+					text-decoration: none;
+					color:#06F;
+				}
+
+			#pcIconBarRight {
+				position: absolute;
+				top: 0;
+				right: 10px;
+				padding-top: 10px;
+				}
+					
+				#pcIconBarRight img {
+					margin-right: 5px;
+					}
+					
+				#pcIconBarRight .pcIconBarSeparator {
+					border-right: 1px solid #BBB;
+					padding-right: 15px;
+				}
+
+/* ----- Top Navigation End ----- */
+
+/* ----- Main Area Layout ----- */
+
+	/* Main container */
+	#pcMainArea {
+		width: 1000px;
+		margin: 0 auto 0 auto;
+		border: 1px solid #CCC;
+		background-color: #F7F7F7;
+	}
+		
+	/* Left-side column */
+	#pcMainArea-LEFT {
+		width: 180px;
+		float: left;
+		text-align: left;
+		vertical-align: top;
+		margin: 12px 8px;
+		/* IE 6 double margin fix */
+		display: inline;
+	}
+
+	/* Main area */
+	#pcMainArea-CENTER {
+		margin: 12px 196px;
+		padding: 8px;
+		border: 1px solid #e1e1e1;
+		background-color: #FFF;
+		min-height: 400px;
+	}
+		
+	/* Right-side column */
+	#pcMainArea-RIGHT {
+		width: 180px;
+		float: right;
+		text-align: left;
+		vertical-align: top;
+		margin: 12px 8px;
+		/* IE 6 double margin fix */
+		display: inline;
+	}
+		
+/* ----- Main Area Layout - END ----- */
+
+/* ----- Main Area Elements ----- */
+
+	#pcMainArea-BROWSE {
+			width: 180px;
+			background-image: url(../images/pc11-navBG-blue.png);
+			background-repeat: no-repeat;
+			margin-bottom: 10px;
+		}
+
+	#pcMainArea-BROWSE table {
+			margin: 0 0 10px 6px;
+		}
+
+	#pcMainArea-BROWSE table td {
+			padding: 4px 0 0 0;
+		}
+		
+	#pcMainArea-PRICE {
+			width: 180px;
+			background-image: url(../images/pc11-navBG-blue.png);
+			background-repeat: no-repeat;
+			margin-bottom: 10px;
+			/* IE 6 fix (content pushing out width) */
+			overflow: hidden;
+		}
+
+	#pcUsefulLinks {
+			width: 180px;
+			background-image: url(../images/pc11-navBG-gray.png);
+			background-repeat: no-repeat;
+			margin-bottom: 10px;
+			/* IE 6 fix (content pushing out width) */
+			overflow: hidden;
+		}
+
+	#pcRecentProducts {
+			width: 180px;
+			background-image: url(../images/pc11-navBG-lightgray.png);
+			background-repeat: no-repeat;
+			margin-bottom: 10px;
+			/* IE 6 fix (content pushing out width) */
+			overflow: hidden;
+	}
+
+	#pcMainAreaBottom #pcUsefulLinks
+	{
+		display: none;
+	}
+	
+	#pcRecentProducts h3 {
+			font-size: 13px;
+			color: #333;
+			width: 180px;
+			margin: 3px 0 10px 5px;
+			font-weight: normal;
+	}
+
+	.pcRecentProduct
+	{
+		clear: both; 
+		padding: 0px 5px 5px 5px;
+	}
+
+	.pcRecentProduct img
+	{
+		width: 20px;
+		height: 20px;
+	}
+		
+	#pcMainArea-LEFT h3, #pcMainArea-RIGHT h3 {
+			font-size: 14px;
+			color: #FFF;
+			margin: 3px 0 10px 8px;
+			padding-bottom: 10px;
+		}
+
+	#pcMainArea-LEFT ul, #pcMainArea-RIGHT ul {
+		list-style-type: none;
+		margin: 0 0 10px 5px;
+		padding: 0;
+	}
+
+	#pcMainArea-LEFT li, #pcMainArea-RIGHT li {
+		margin: 4px 0 0 5px;
+	}
+	
+	/* Styling links in both side columns */
+
+	#pcMainArea-LEFT a {
+		text-decoration: none;
+		color: #333;
+		}
+		
+	#pcMainArea-LEFT a:hover {
+		text-decoration: none;
+		color: #06F;
+		}
+		
+	#pcMainArea-RIGHT a {
+		text-decoration: none;
+		color: #333;
+		}
+		
+	#pcMainArea-RIGHT a:hover {
+		text-decoration: none;
+		color: #06F;
+		}
+		
+	#pcMainArea-SPACER {
+			clear: both;
+			height: 8px;
+		}
+
+	#pcSpecials, #pcNewArrivals, #pcBestSellers
+	{
+		float: left;
+		width: 33.1%;
+		padding: 0.3%;
+	}
+
+/* ----- Main Area Elements End ----- */
+
+/* ----- Footer - Start ----- */
+
+	#pcFooterContainer {
+			width: 100%;
+		}
+		
+		#pcFooter {
+			width: 1000px;
+			margin: 0 auto;
+			position: relative;
+			color: #888;
+			height: 40px;
+		}
+
+		#pcFooter a {
+			color: #888;
+			text-decoration: none;
+		}
+
+		#pcFooter a:hover {
+			color: #555;
+		}
+
+			#pcFooterLeft {
+				position: absolute;
+				left: 0;
+				top: 15px;
+				}
+						
+			#pcFooterRight {
+				position: absolute;
+				right: 0;
+				top: 15px;
+			}
+					
+/* ----- Footer End ----- */
+
+
+/* ----- Other Interface Elements ----- */
+
+	#pcShowCart {
+		width: 180px;
+		border: 1px solid #e1e1e1; 
+		margin-bottom: 10px;
+		font-size: 11px;
+		background-image: url(../images/pcv4_cart_back.png);
+		background-repeat: no-repeat;
+		background-position: 5px 5px;
+		text-align: right;
+	}

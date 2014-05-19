@@ -1,0 +1,74 @@
+/*
+ProductCart Shopping Cart Software, Copyright NetSource Commerce 2001-2013, All Rights Reserved
+
+Use this stylesheet to display prices in a floating panel on the BTO configuration pages.
+
+If styles modified using this page do not appear in your storefront, please make sure that header.asp 
+links to this stylesheet. The following code should appear before the closing </head> tag:
+
+<link type="text/css" rel="stylesheet" href="pcBTO.css" />
+
+/* START - BTO Prices */
+
+#pcBTOfloatPrices {
+	position: fixed;
+	margin-left: 690px; /* change this value depending on the width of the area where ProductCart code is loaded */
+	top: 250px; /* sets the distance from the top of the area where ProductCart code is loaded */
+	width: 220px; /* sets the width of the floating element: it might need to be changed depending on font size */
+	background-color: #EDF0F4; /* sets the background color of the floating element, which is also affected by the transparency settings below */
+	padding: 5px;
+	border: 2px solid #999;
+
+	/* Transparency: remove for no transparency */
+	filter:alpha(opacity=85);
+    -moz-opacity:0.85;
+    -khtml-opacity: 0.85;
+    opacity: 0.85; 
+	/* Transparency: end */
+	
+	/* Round corners: does not work on IE */
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	/* End Round corners */
+	
+	/* Shadow: does not work on IE */
+ 		-moz-box-shadow: #BBB 3px 3px 3px;
+		-webkit-box-shadow: #BBB 3px 3px 3px;
+        box-shadow: #BBB 3px 3px 3px;
+	/* End Shadow */
+}
+
+/* IF using a dark background, change font color by activating the following code
+	#pcBTOfloatPrices {
+		color: #FFF;
+	}
+	
+	#pcBTOfloatPrices input {
+		color: #FFF;
+	}
+/* END IF */
+
+/* Style price values: 
+   To style the prices in the floating panel, enter any styles here */
+#pcBTOfloatPrices .transparentField {
+
+}
+
+/* Hide the prices that were shown at the top */
+#pcBTOhideTopPrices {
+	display: none;
+}
+
+/* Hide table row at the bottom that says "Total"  */
+#pcBTOtotalTitle {
+	display: none;
+}
+	
+/* Hide the line breaks
+   Do a search for <hr> on configurePrd.asp and replace the two instances
+   with <hr class="pcBTObr"> if the class is not there. */
+.pcBTObr {
+	display: none;
+}
+
+/* END */

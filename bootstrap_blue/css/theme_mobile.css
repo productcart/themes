@@ -1,0 +1,128 @@
+
+#pcAcceptedPayments {
+    margin: 0 auto;
+    padding: 4px;   
+}
+.navbar-nav {
+    margin: 0px;
+}
+
+/* ===================
+START: BUTTONS
+=================== */
+.pcButton {    
+	display: inline-block;
+	padding: 6px 12px;
+	margin: 2px;
+	white-space: nowrap;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	 -moz-user-select: none;
+		-ms-user-select: none;
+				user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.42);
+	border-color: #1A2874;
+	text-shadow: none;
+	background: #1F3F7A;
+	border-bottom: 4px solid #07244E;
+}
+a.pcButton {
+	text-decoration: none;
+}
+.pcButton .pcButtonText {
+	display: block !important;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 1.42857143;
+	color: #FFFFFF;
+}
+.pcButton img,
+.pcButton input[type="image"] {
+	display: none;
+}
+.pcButton:hover {
+
+}
+
+.pcButtonAddToCart {
+
+}
+.pcButtonAddToCart:hover {
+
+}
+.pcButtonAddToCart .pcButtonText {
+
+}
+
+.pcButtonMoreDetails {
+	padding: 3px 5px !important;
+}
+.pcButtonMoreDetails:hover {
+	padding: 3px 5px !important;
+}
+
+.pcButtonAddToCartSmall {
+	padding: 3px 5px !important;
+}
+.pcButtonAddToCartSmall:hover {
+	padding: 3px 5px !important;
+}
+.pcButtonMoreDetails .pcButtonText,
+.pcButtonAddToCartSmall .pcButtonText {
+	font-size: 11px !important;
+	border-bottom-width: 2px;
+}
+
+.secondary {
+
+}
+.secondary:hover {
+
+}
+.secondary .pcButtonText {
+
+}
+
+
+.tiny {
+	padding: 3px 5px !important;
+}
+.tiny .pcButtonText {
+	font-size: 10px !important;
+}
+
+a.pcMoreLink {
+	font-size: 12px;
+	margin: 10px 0;
+	display: inline-block;
+}
+
+a.pcButton.pcButtonAddToWishlist span.pcButtonText {
+	font-size: 12px;
+}
+a.pcButton.pcButtonAddToWishlist {
+	padding: 4px 11px;
+	margin: 5px;
+}
+div.pcShowWishlist {
+	float: left;
+	margin: 0;
+}
+
+.pcShowAddToCart {
+	float: left;
+}
+
+/*.pcShowProductNav {
+	display: none;
+}*/
+/* ===================
+END: BUTTONS
+=================== */

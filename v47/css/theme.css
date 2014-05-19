@@ -1,0 +1,239 @@
+.pcSpacer {
+    clear: none;
+}
+h1 
+{
+	background-image: url(../images/pcv4_h1_back.jpg);
+	background-repeat: repeat-x;
+	background-size: 1px 100%;
+	border-bottom: 1px solid #CCC;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+	padding: 0 5px 0 5px;
+	text-align: left;
+}
+
+h2, .pcSectionTitle
+{
+	background-color: #F7F7F7;
+	text-align: left;
+	padding: 5px;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0px;
+	margin-bottom: 5px;
+	color: #666666;
+}
+
+.pcShowContent h2
+{
+	font-size: 15px;
+	color: inherit;
+}
+
+h3
+{
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+#pcMain
+{
+	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	text-align: left;
+	background-color: #FFFFFF;
+	width: 100%;
+}
+
+#pcMain a:link 
+{
+	color: #0066FF;
+	text-decoration: underline;
+}
+	
+#pcMain a:visited 
+{
+	color: #0066FF;
+}
+	
+#pcMain a:hover
+{
+	color: #0000FF;
+	text-decoration: none;
+}
+
+#pcMain a.pcButton 
+{
+	text-decoration: none;
+}
+
+/* Overrides for Bootstrap elements */
+#pcMain .nav-tabs a,
+#pcMain .dropdown-menu a
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+.pcForms input 
+{
+	border: 1px solid #CCCCCC;
+	background-color: #F7F7F7;
+	font-size: 11px;
+	color: #666666;
+	padding: 2px 3px 2px 3px;
+	line-height: 10px;
+}
+
+.pcForms select 
+{
+	font-size: 10px;
+	color: #333333;
+	background-color: #F5F5F5;
+	border: 1px solid #CCCCCC;
+}
+
+.pcTable .pcTableHeader 
+{
+	background-color: #FFFFCC;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 4px;
+	border-bottom: 1px solid #E1E1E1;
+	text-align: left;
+	width: 100%;
+}
+
+.pcTable .pcTableRow
+{
+	width: 100%;
+}
+
+.pcShowProducts 
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	border: 1px dotted #E1E1E1;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+.pcShowProductName 
+{
+	font-size: 12px;
+	color: #CC6600;
+}
+
+.pcPageDesc
+{
+	margin-bottom: 5px;
+	padding: 5px;
+	border: 1px dashed #CCC;
+}
+.pcButton
+{
+	margin: 3px 0px;
+}
+
+.pcShowProductButtonsH .pcButtonMoreDetails
+{
+	display: block;
+}
+
+#pcMain .pcShowMainImage a
+{
+	border: 1px solid #E5E5E5;
+	padding: 5px;
+}
+
+#pcMain .pcShowProductImage img, 
+#pcMain .pcShowCategoryImage img, 
+#pcMain .pcShowProductImageH img
+{
+	border: 1px solid #E5E5E5;
+	padding: 5px;
+}
+
+#pcIconBar #pcIconBarLeft .pcIconBarViewCart
+{
+	padding-left: 20px;
+	background: transparent url(../images/pc11-icon-cart.png) no-repeat center left;
+}
+
+#pcMain .pcAddThisRight 
+{
+	padding: 5px;
+	min-height: 30px;
+}
+
+/* ===================
+    START: DD SMOOTH OVERRIDES
+   =================== */
+.ddsmoothmenu-v ul li
+{
+	display: block;
+	float: none;
+	position: relative;
+}
+.ddsmoothmenu-v ul li a
+{
+	display: block;
+	overflow: auto;
+}
+.ddshadow
+{
+	display: none;
+}
+.ddsmoothmenu-v ul li a:link, .ddsmoothmenu-v ul li a:visited, .ddsmoothmenu-v ul li a:active
+{
+	border-bottom: 1px solid transparent;
+	border-top: 1px solid transparent;
+}
+.ddsmoothmenu-v ul li a:hover,
+.ddsmoothmenu-v ul li a.selected
+{
+}
+.ddsmoothmenu-v ul li ul li
+{
+	margin: 0px !important;
+}
+.ddsmoothmenu-v ul li ul li a
+{
+	color: #F3F3F3 !important;
+	padding: 5px 20px;
+}
+.ddsmoothmenu-v ul li ul li a:hover,
+.ddsmoothmenu-v ul li ul li a.selected
+{
+	background-color: #999999;
+	background-color: rgba(238,238,238,0.65);
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+.ddsmoothmenu-v .rightarrowclass
+{
+	background-repeat: no-repeat;
+	float: right;
+	height: 7px;
+	margin-right: 1px;
+	margin-top: 4px;
+	width: 5px;
+}
+.ddsmoothmenu-v ul li ul
+{
+	background-color: #CCCCCC;
+	background-color: rgba(85, 85, 85, 0.95);
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+	font-weight: normal;
+	position: absolute;
+	top: 0;
+	visibility: hidden;
+}
+/* ===================
+    END: DD SMOOTH OVERRIDES
+   =================== */
